@@ -24,3 +24,4 @@ namespace AutoDonate
 { 
   [ApiVersion(2, 1)] ////////////////////Версия API 2,1
     public class AutoDonate : TerrariaPlugin
+
