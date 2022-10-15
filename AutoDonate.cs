@@ -9,6 +9,7 @@
 // /_/ |_\_,_/\__/\___/____/\___/_//_\_,_/\__/\__/ 
 //                                                 
 
+// Модули
 using System
 using System.Collections.Generic;
 using System.Reflection;
@@ -19,3 +20,7 @@ using TShockAPI
 using TShockAPI.DB
 
 
+namespace AutoDonate
+{ 
+  [ApiVersion(2, 1)] ////////////////////Версия API 2,1
+    public class AutoDonate : TerrariaPlugin
